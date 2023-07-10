@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon site Github</title>
+        <meta charset="utf-8" />
+        <style>
+          body
+{
+	background-color: lightyellow;
+	font-family: tahoma;
+}
+header
+{
+	width: 100%;
+	background-color: lightgray;
+	border-radius: 15px;
+	padding: 2px 0 5px 10px;
+	margin: auto;
+}
+#titreentete
+{
+	display: inline-block;
+	padding: 10px;
+	font-size: 30px;
+	margin: 14px 25px 0 25px;
+}
+#logo
+{
+	vertical-align: top;
+	padding:10px;
+
+}
+#logo2
+{
+	vertical-align: top;
+	padding:10px;
+
+}
+
+nav {
+	vertical-align: right;
+	display: inline-block;
+	font-size: 20px;
+	margin: 0 0 0 300px;
+	
+}
+nav li {
+	display: inline;
+	list-style: none;
+	background-color: lightblue;
+	padding:5px;
+	box-shadow: 2px 2px 3px black;
+}
+nav a {
+	display:inline-block;
+	margin: 0 30px;
+}
+nav a:hover
+{
+	border-top: 2px blue;
+}
+
+/* Footer */
+
+footer
+{
+    width: 100%;
+    position: fixed;
+    background:   red;
+    padding-top: 25px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+
+#tweet
+{
+    width: 28%;
+}
+
+#mes_photos
+{
+    width: 35%;
+}
+
+#mes_amis
+{
+    width: 31%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#listes_amis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#mes_amis ul
+{
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: #760001;
+}
+          
+        </style> 
+    </head>
+    <body>
+        <header>
+           <a href="index.html">
+                <img src="logo.png" id="logo" width="80" height="80">
+            </a>
+            <h2 id="titreentete"> Le site d'Actualité</h2>
+            <img src="logo.png" id="logo2" width="80" height="80">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                </ul>
+            </nav>
+        </header>
+       
+        <main>
+            <h1>
+                Mon site Github
+            </h1>
+            <div id="section1">
+                <section>
+                    <h2>
+                       Wikiclic est un super site 
+                    </h2>
+                    <p>
+                         <a href="https://wikiclic.com/logiciel-intelligence-artificielle/">Annuaire outils IA</a>
+                    </p>
+                </section>
+                <section id="section2">
+                    <h2>
+                        Tutos Windows 11
+                    </h2>
+                    <p>
+                        <a href="https://wikiclic.com/category/windows-11/">Tout sur Windows 11</a>
+                    </p>
+                    <div>
+                        <article>
+                            <h2>
+                                Tutos Windows 10
+                            </h2>
+                            <p>
+                                 <a href="https://wikiclic.com/category/windows-10/">Tout sur Windows 10</a>
+                            </p>
+                        </article>
+                      </div>
+                </section>
+            </div>
+            <aside>
+                <p>
+                    Wikiclic pour faciliter votre quotidien numérique
+                </p>
+            </aside>
+        </main>
+        
+        <footer>
+            <p>
+               
+                    Mentions légales - <a href="https://wikiclic.com">Mentions légales</a>
+                
+            </p>
+        </footer>
+    </body>
+</html>
